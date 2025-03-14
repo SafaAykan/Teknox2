@@ -1,0 +1,168 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.baslik {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 200px;
+    font-size: 2rem;
+}
+
+.header {
+    display: flex;
+    gap: 50px;
+    background: linear-gradient(90deg, rgb(236, 169, 69), rgb(113, 69, 236), rgb(63, 183, 19), rgb(236, 69, 69));
+    filter: drop-shadow(0px 0px 10px grey);
+}
+
+.header h1 {
+    color: aliceblue;   
+    font-size: 50px;
+}
+
+.logo1 {
+    margin-left: 50px;
+    margin-top: 5px;
+    display: flex;
+    gap: 25px;
+    flex: 2;
+}
+
+.logo {
+    margin-top: 35px;
+}
+
+.adress {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    flex: 1;
+    position: absolute;
+    right: 50px;
+
+}
+
+.adress a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.adress a:hover {
+    background-color: rgba(78, 78, 78, 0.185);
+    border-radius: 10%;
+    padding: 5px;
+}
+
+.container {
+    display: grid;
+    gap:50px;
+    margin-top: 50px;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr 0.5fr;
+}
+
+footer {
+    grid-row-start: 4;
+    width: 100%;
+    grid-column-start: span 4;
+}
+
+.info {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    border: 3px dotted rgb(236, 169, 69);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.info1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    border: 3px dotted rgb(113, 69, 236);
+    padding: 15px;  
+    border-radius: 15px;
+}
+
+.baslik {
+    margin-left: 0px;
+
+}
+
+.card1 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+    border: 2px dotted rgb(236, 69, 69);
+    padding: 15px;
+    border-radius: 15px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.card1 img {
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.card2 img {
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.card1 .isim {
+    font-size: 1.2rem;
+    color: rgb(236, 69, 69);
+    justify-self: center;
+}
+
+.card1 .isim h2 {
+    margin-bottom: 5px;
+}
+
+.card1 .bilgi {
+    font-size: 1rem;
+    color: rgb(236, 69, 69);
+    justify-self: center; 
+    align-self: center;
+}
+
+.card2 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    justify-content: center;
+    border: 2px dotted rgb(63, 183, 19);
+    padding: 15px;
+    border-radius: 15px;
+    width: 300px;
+    margin-left: 150px;
+}
+
+.cardimg {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+}
+
+.card2 .isim {
+    font-size: 1.2rem;
+    color: rgb(63, 183, 19);
+    justify-self: center;
+}
+
+.card2 .isim h2 {
+    margin-bottom: 5px;
+}
+
+.card2 .bilgi {
+    font-size: 1rem;
+    color: rgb(63, 183, 19);
+    justify-self: center; 
+    align-self: center;
+}

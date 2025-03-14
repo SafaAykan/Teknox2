@@ -1,0 +1,175 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    display: flex;
+    padding: 20px;
+    background-color: rgb(77, 226, 23);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 10px grey; 
+    height: 50px;
+}
+
+.header h1 {
+    color: aliceblue;
+    font-size: 50px;
+    margin: 0px;
+    position: absolute;
+    top: 8px;
+}
+
+.logo {
+    position: absolute;
+    left: 240px;
+    top: 10px;
+}
+
+.header div {
+    position: relative;
+    margin-left: auto;  
+}
+
+.header div a {
+    margin: 25px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header div a:hover {
+    background-color: rgb(128, 128, 128, 40%);
+    border-radius: 10%;
+    padding: 5px;
+}
+
+.container1 {
+    display: flex;
+    gap:50px;
+    margin-top: 50px;
+}
+
+.navbar {
+    width: 25%;
+    height: auto;
+    box-shadow: 0px 0px 10px grey;
+    padding: 20px;
+}
+
+.navbar li {
+    margin-top: 25px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.section {
+    width: 50%;
+    height: auto;
+    
+    padding: 30px;
+}
+
+.section .navimg {
+    box-shadow: 0px 0px 10px grey;
+    width: 100%;
+    height: auto;
+}
+
+.section h1{
+    font-size: 3rem;
+}
+
+.section p {
+    word-spacing: 3px;
+    font-size: 1.2rem;
+}
+
+.aside {
+    width: 25%;
+    padding: 50px;
+    height: auto;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.reklam2 {
+    margin-top: 50px;
+    border: 1px solid rgba(0, 0, 0, 30%); 
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.reklam1 img {
+    box-shadow: 0px 0px 10px grey;
+}
+
+.cokimg {
+    width: 100px;
+    height: 100px;
+    clear: both;
+    float: left;
+    
+    
+}
+
+.cokimg img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 20px;
+}
+
+.cokfont {
+    overflow: hidden;
+    margin-top: 0px;
+    float: left;
+    margin-left: 30px;
+}
+
+.cokicerik {
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid rgba(235, 235, 235, 0.6);
+    background-color: rgba(77, 226, 23, 0.527);
+    box-shadow: 0px 0px 10px grey;
+}
+
+.cokfont p {
+    font-size: 1rem;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+.reklam video {
+    box-shadow: 0px 0px 10px grey;
+}
+
+.scroll-button {
+    background-color: rgb(77, 226, 23); 
+    padding: 5px; 
+    width: 20px; 
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    pointer-events: none;
+}
+
+.scroll-button:hover {
+    background-color: rgb(63, 183, 19);
+  }
+
+  body:not(:target) #scrollToTop {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+html {
+    scroll-behavior: smooth; /* Yumuşak kaydırma */
+}

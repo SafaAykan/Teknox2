@@ -1,0 +1,178 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    display: flex;
+    gap: 50px;
+    background-color: rgb(236, 69, 69);
+    filter: drop-shadow(0px 0px 10px grey);
+}
+
+.header h1 {
+    color: aliceblue;   
+    font-size: 50px;
+}
+
+.logo1 {
+    margin-left: 50px;
+    margin-top: 5px;
+    display: flex;
+    gap: 25px;
+    flex: 2;
+}
+
+.logo {
+    margin-top: 35px;
+}
+
+.adress {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    flex: 1;
+    position: absolute;
+    right: 50px;
+
+}
+
+.adress a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.adress a:hover {
+    background-color: rgba(78, 78, 78, 0.185);
+    border-radius: 10%;
+    padding: 5px;
+}
+
+.iletisim {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 0.5fr 0.3fr 1fr 0.5fr 2fr;
+    
+}
+
+.iletisim1 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    align-self: end;
+    margin-bottom: 0px;
+    color: rgb(236, 69, 69);
+    font-size: 2rem;
+}
+
+.harita {
+    grid-column-start: 2;
+    grid-row-start: 5;
+    align-self: start;
+    border: 3px dotted rgb(236, 69, 69);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px grey; 
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+.konum {
+    grid-column-start: 2;
+    grid-row-start: 4;
+    align-self: end;
+    margin-bottom: 0px;
+    color: rgb(236, 69, 69);
+    font-size: 2rem;
+}
+
+.reklam1{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    align-self: end;
+    filter: drop-shadow(0px 0px 10px grey);
+}
+
+input {
+    border: 2px solid rgb(236, 69, 69);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+input:focus {
+    border-color: rgb(236, 69, 69);
+    outline: none;
+}
+
+textarea {
+    border: 2px solid rgb(236, 69, 69);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+textarea:focus {
+    border-color: rgb(236, 69, 69);
+    outline: none;
+}
+
+label {
+    color: rgb(236, 69, 69);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.form1 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    box-shadow: 0px 0px 10px grey; 
+}
+
+form {
+    border: 3px dotted rgb(236, 69, 69);
+    padding: 25px;
+    border-radius: 10px;
+    width: 1200px;
+    height: 400px;
+}
+
+.scroll-button {
+    background-color: rgb(236, 69, 69); 
+    padding: 5px; 
+    width: 20px; 
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    pointer-events: none;
+}
+
+.scroll-button:hover {
+    background-color: rgb(159, 48, 48);
+  }
+
+  body:not(:target) #scrollToTop {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+html {
+    scroll-behavior: smooth; /* Yumuşak kaydırma */
+}
+
+.frmbtn {
+    background-color: rgb(236, 69, 69);
+    border: 2px solid rgb(226, 40, 40);
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.frmbtn:hover {
+    background-color: rgb(226, 40, 40);
+    border: 2px solid rgb(207, 62, 62);
+}

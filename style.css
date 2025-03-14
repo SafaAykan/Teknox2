@@ -1,0 +1,263 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.baslik {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 200px;
+    font-size: 2rem;
+}
+
+.header {
+    display: flex;
+    gap: 50px;
+    background-color: rgb(236, 169, 69);
+    filter: drop-shadow(0px 0px 10px grey);
+}
+
+.header h1 {
+    color: aliceblue;   
+    font-size: 50px;
+}
+
+.logo1 {
+    margin-left: 50px;
+    margin-top: 5px;
+    display: flex;
+    gap: 25px;
+    flex: 2;
+}
+
+.logo {
+    margin-top: 35px;
+}
+
+.adress {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    flex: 1;
+    position: absolute;
+    right: 50px;
+
+}
+
+.adress a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.adress a:hover {
+    background-color: rgba(78, 78, 78, 0.185);
+    border-radius: 10%;
+    padding: 5px;
+}
+
+.navbar {
+    width: 1500px; 
+    height: 500px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin:50px auto;
+    filter: drop-shadow(0px 0px 12px grey);
+}
+
+#mUrl2 {
+    color: white;
+    text-decoration: none;
+}
+
+#mUrl2:hover {
+    color: rgb(177, 177, 247);
+}
+
+#imgchange{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 1px solid rgb(0, 0, 0, 50%);
+}
+
+#descCont {
+    position: absolute;
+    background-color: rgba(71, 71, 71, 0.4);
+    color: white;
+    width: 1500px;
+    height: 121px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 1.5rem;
+    align-content: center;
+    bottom: 0.5px;
+}
+
+#descCont p {
+    margin-left: 50px;
+}
+
+#rightBtn {
+    position: absolute;
+    bottom: 200px;
+    right: 20px;
+    background-color: rgb(255, 255, 255, 0%);
+    border: 0px;
+}
+
+#rightBtn img {
+    opacity: 60%;
+}
+
+#leftBtn {
+    position: absolute;
+    bottom: 200px;
+    left: 20px;
+    background-color: rgb(255, 255, 255, 0%);
+    border: 0px;
+}
+
+#leftBtn img {
+    opacity: 60%;
+}
+
+.bigArticle {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 50px;
+}
+
+.article {   
+    width: 1150px;
+}
+
+.boximage {
+    width: 300px;
+    height: 300px;
+    clear: both;
+    float: left;  
+}
+.boximage img {
+    width: 100%;
+    height: 99%;
+    object-fit:cover;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.boxfont {
+    width: 800px;
+    margin-right: 20px;
+    margin-top: 60px;
+    float: right;  
+}
+
+.boxfont .pbaslik {
+    font-size: 2rem;
+}
+
+.boxfont .picerik {
+    font-size: 1rem;
+}
+
+.section {
+    background-color: rgba(236, 169, 69, 0.527);
+    margin-top: 20px;
+    display: block;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid rgba(235, 235, 235, 0.6);
+    box-shadow: 0px 0px 10px grey;
+}
+
+.aside {
+    margin-left: 50px;
+    margin-bottom: 650px;
+}
+
+.cokimg {
+    width: 100px;
+    height: 100px;
+    clear: both;
+    float: left;
+}
+
+.cokimg img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 20px;
+}
+
+.cokfont {
+    overflow: hidden;
+    margin-top: 0px;
+    float: left;
+    margin-left: 30px;
+}
+
+.cokicerik {
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid rgba(235, 235, 235, 0.6);
+    background-color: rgba(236, 169, 69, 0.527);
+    box-shadow: 0px 0px 7px grey;
+}
+
+.cokfont p {
+    font-size: 1rem;
+}
+
+.boxfont a {
+    float: right;
+    margin-right: 40px;
+    font-size: 1.2rem;
+    text-decoration: purple;
+    
+}
+
+a:active {
+    color: white;
+}
+
+.section a:hover {
+    color: white;
+}
+
+hr {
+    width: 1500px;
+    
+}
+
+.scroll-button {
+    background-color: rgb(236, 169, 69); 
+    padding: 5px; 
+    width: 20px; 
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    pointer-events: none;
+}
+
+.scroll-button:hover {
+    background-color: rgb(223, 146, 32);
+  }
+
+  body:not(:target) #scrollToTop {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+html {
+    scroll-behavior: smooth; /* Yumuşak kaydırma */
+}
