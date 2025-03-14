@@ -1,9 +1,9 @@
 const data = [
-    { image: '/ödev/nav/image1.jpg', description: 'Windows 10 yolun sonuna gelmek üzere ...', url: '/ödev/makaleler/m1.html', url2: '/ödev/makaleler/m1.html' },
-    { image: '/ödev/nav/image2.jpg', description: "Samsung Yeni Giriş Segmenti Telefonu A16'yı Tanıttı.", url: '/ödev/makaleler/m2.html', url2: '/ödev/makaleler/m2.html' },
-    { image: '/ödev/nav/image3.jpg', description: 'Samsung Galaxy S24 FE inceleme: En iyilerden biri, ama en iyisi mi?', url: '/ödev/makaleler/m3.html', url2: '/ödev/makaleler/m3.html' },
-    { image: '/ödev/nav/image4.jpg', description: 'Windows 11 Android desteğini kaybediyor!', url: '/ödev/makaleler/m1.html',  url2: '/ödev/makaleler/m4.html' },
-    { image: '/ödev/nav/image5.jpg', description: 'Mac Mini M4 Tanıtıldı! İşte Fiyatı ve Özellikleri ...', url: '/ödev/makaleler/m5.html', url2: '/ödev/makaleler/m5.html' }
+    { image: './nav/image1.jpg', description: 'Windows 10 yolun sonuna gelmek üzere ...', url: './makaleler/m1.html', url2: './makaleler/m1.html' },
+    { image: './nav/image2.jpg', description: "Samsung Yeni Giriş Segmenti Telefonu A16'yı Tanıttı.", url: './makaleler/m2.html', url2: './makaleler/m2.html' },
+    { image: './nav/image3.jpg', description: 'Samsung Galaxy S24 FE inceleme: En iyilerden biri, ama en iyisi mi?', url: './makaleler/m3.html', url2: './makaleler/m3.html' },
+    { image: './nav/image4.jpg', description: 'Windows 11 Android desteğini kaybediyor!', url: './makaleler/m1.html',  url2: './makaleler/m4.html' },
+    { image: './nav/image5.jpg', description: 'Mac Mini M4 Tanıtıldı! İşte Fiyatı ve Özellikleri ...', url: './makaleler/m5.html', url2: './makaleler/m5.html' }
 ];
 
 const imageElement = document.getElementById('imgchange');
